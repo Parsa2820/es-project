@@ -6,9 +6,12 @@ from django.template import loader
 def index(request):
 
 
-    
+    file = open('./var/tmp/coleman/API.txt', 'r')
+    line = file.getline()
+    WLP = int(line.split()[1])
+
     template = loader.get_template("app/index.html")
     context = {
-        "latest_question_list": latest_question_list,
+        "WLP": WLP,
     }
     return HttpResponse(template.render(context, request))
