@@ -14,11 +14,8 @@ Embedded Systems Course Project
 
 The main idea is creating a smart water container using a proximity sensor to detect user requests and water level sensors to keep track of the water supply's level.
 
-<<<<<<< HEAD
 ![Device](./Documentation/Device.jpg)
 
-=======
->>>>>>> 369537c58af1448cbeedaa40168c11113dad3866
 ## Requirments
 
 ### Hardware
