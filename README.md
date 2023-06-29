@@ -15,7 +15,11 @@ The main idea is creating a smart water container using a proximity sensor to de
 ### Hardware
 The project is initially implemented on following hardwares but it may work on similar hardwares:
 - Raspberry pi 3b+
-
+- HC-SR04
+- Water Level Sensor
+- LED
+- Buzzer
+- Servo Motor
 ### Software
 - Python 3.0 (Tested on Python 3.9)
 - Raspbian
@@ -41,3 +45,7 @@ python Modules/main.py`
 ```
 ## Test and Performance
 Watch [working system video](./Documentation/Report.MOV).
+![ui-0](Documentation/ui-0.png)
+![ui-0](Documentation/ui-33.png)
+![ui-0](Documentation/ui-66.png)
+![ui-0](Documentation/ui-100.png)
