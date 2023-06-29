@@ -33,6 +33,14 @@ The exact wiring and gpio ports are defined as constants in python files in `Mod
 ## Embedded System Design and Logic
 The project contains multiple python modules including water, ultrasonic distance, buzzer, actuator and LED; these modules each contain methods and classes reagarding the specific section of the ES and when creating the main module integrating all of them together, we have used these modules to operate the actuator and buzzer. 
 
+## Web App
+
+### Back-end
+As we mentioned app's framework is Django. The Django server contains one single-responsibility app, named app. The function of this app is just to read the Water Level from a file, namely '/var/tmp/coleman/API.txt'. This app changes periodically by the water level module (water.py in the Modules folder). Reading from this file and changing the WLP variable, alters the water level in the UI, that is handled in the front-end.
+
+### Front-end
+
+
 ## How to Run
 The project consists of two main parts. First you should run the web app in order to show coleman info in raspberry pi or any device in local network.
 ```bash
